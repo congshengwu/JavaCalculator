@@ -7,10 +7,11 @@ package com.csw.calculator;
 public class Main {
 
     public static void main(String[] args) {
-        String result = Calculator.input("50*((6.4+3.6)/2)-50")
-                .getResult().stripTrailingZeros().toPlainString();
+        String result1 = Calculator.input("8×4-(10+12÷3)").getResult();
+        System.out.println(result1);
 
-        System.out.println(result);
+        String result2 = Calculator.input("8/3").getResult(3); // 保留三位小数
+        System.out.println(result2);
     }
 
 }
