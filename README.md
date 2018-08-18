@@ -11,7 +11,7 @@ allprojects {
 ```
 ```gradle
 dependencies {
-    implementation 'com.github.congshengwu:JavaCalculator:v1.0.2'
+    implementation 'com.github.congshengwu:JavaCalculator:v1.0'
 }
 ```
 ### Maven
@@ -27,5 +27,5 @@ dependencies {
 <dependency>
     <groupId>com.github.congshengwu</groupId>
         <artifactId>JavaCalculator</artifactId>
-        <version>v1.0.2</version>
+        <version>v1.0</version>
 </dependency>
