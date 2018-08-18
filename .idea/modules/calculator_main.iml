@@ -9,6 +9,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: com.github.congshengwu:JavaCalculator:v1.0.1" level="project" />
   </component>
 </module>
