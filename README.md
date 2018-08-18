@@ -1,4 +1,12 @@
 # JavaCalculator
+[![](https://jitpack.io/v/congshengwu/JavaCalculator.svg)](https://jitpack.io/#congshengwu/JavaCalculator)
+```Java
+String result1 = Calculator.input("8×4-(10+12÷3)").getResult();
+System.out.println(result1); // 18
+
+String result2 = Calculator.input("8/3").getResult(3);
+System.out.println(result2); // 2.667
+```
 ### Gradle
 ```gradle
 allprojects {
