@@ -1,6 +1,31 @@
 # JavaCalculator
 [![](https://jitpack.io/v/congshengwu/JavaCalculator.svg)](https://jitpack.io/#congshengwu/JavaCalculator)  
-
-  String result = Calculator.input("50*((6.4+3.6)/2)-50")
-                .getResult().stripTrailingZeros().toPlainString();  
-                System.out.println(result);
+### Gradle
+```gradle
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+```gradle
+dependencies {
+    implementation 'com.github.congshengwu:JavaCalculator:v1.0'
+}
+```
+### Maven
+  ```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+    </repositories>
+```
+  ```xml
+<dependency>
+    <groupId>com.github.congshengwu</groupId>
+        <artifactId>JavaCalculator</artifactId>
+        <version>v1.0</version>
+</dependency>
